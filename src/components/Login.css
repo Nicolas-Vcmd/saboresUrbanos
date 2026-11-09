@@ -6,11 +6,12 @@
 }
 
 .login-container {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('src/img/fondo.jpeg');
+  background-image: url('src/img/fondo_SU.jpg');
   background-size: cover;
   background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);

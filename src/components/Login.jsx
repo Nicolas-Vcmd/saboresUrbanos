@@ -17,7 +17,6 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí conectarías con tu backend Node.js/Express (RF1)
     console.log('Datos de inicio de sesión:', formData);
   };
 
