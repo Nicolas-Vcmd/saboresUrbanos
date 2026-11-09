@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { User, Lock, Eye, EyeOff } from 'lucide-react';
 import './Login.css';
-import logo from "../img/icono_sabores_urbanos.jpeg"
 
 
 const Login = () => {
@@ -28,7 +27,7 @@ const Login = () => {
         
         <div className="login-logo-container">
           <img 
-            src={logo} 
+            src="src/img/icono_sabores_urbanos.jpeg"
             alt="Sabores Urbanos Logo" 
             className="login-logo"
           />
