@@ -4,6 +4,9 @@
   --dark-bg: #050403;
   --text-light: #e0e0e0;
   --text-muted: #9ca3af;
+  --color-primary: #600514;
+  --color-secondary: #741424;
+
 }
 
 * {
@@ -269,9 +272,20 @@ html, body, #root {
   text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
+  margin-bottom: 10px;
 }
 
 .home-btn:hover {
   background: var(--gold-hov);
-  transform: translateY(-3px);
+  transform: translateY(-2px);
+}
+
+.home-btnl{
+  background-color: var(--color-primary);
+  color: var(--text-light);
+}
+
+.home-btnl:hover {
+  background: var(--color-secondary);
+  transform: translateY(-2px);
 }

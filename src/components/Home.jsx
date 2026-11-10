@@ -14,6 +14,9 @@ const Home = () => {
       <Link to="/mesas" className="home-btn">
         Ver mesas disponibles
       </Link>
+      <Link to="/login" className="home-btn home-btnl">
+        Ingresar
+      </Link>
     </div>
   );
 };
