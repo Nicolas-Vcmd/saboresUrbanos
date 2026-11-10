@@ -19,10 +19,16 @@ La propuesta constituye una primera etapa de desarrollo, dejando para futuras im
 
 - React, Taildwind, React-router
 
-# Uso
+# Uso de app
 
-- npm i
+- Instalar node packages
 
-- npm run server
+``` npm i ```
 
-- npm run dev
+- En una terminal correr el servidor json
+
+``` npm run server ```
+
+- En otra terminal correr la app
+
+``` npm run dev ```
