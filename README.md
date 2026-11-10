@@ -1,16 +1,28 @@
-# React + Vite
+# Propuesta de solucion Sabores Urbanos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo Sabores Urbanos](src/img/icono_sabores_urbanos.jpeg)
 
-Currently, two official plugins are available:
+Se propone desarrollar un Sistema Web de Gestión Integral para Restaurantes que centralice la información de Sabores Urbanos, optimice sus procesos operacionales y facilite la coordinación entre los trabajadores. 
+Para esta primera etapa, se seleccionaron tres requerimientos funcionales prioritarios: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- RF1. Gestión y autenticación de usuarios: permitirá controlar el acceso al sistema según los perfiles y responsabilidades de cada trabajador.  
 
-## React Compiler
+- RF5. Consulta de disponibilidad de mesas: facilitará la búsqueda de mesas considerando restaurante, fecha, hora, capacidad, estado y reservas existentes. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- RF9. Apertura de pedidos asociados a mesas: permitirá al garzón registrar la apertura de pedidos, vinculándolos a una mesa, restaurante, fecha, hora y cliente opcional, evitando pedidos principales duplicados. 
 
-## Expanding the ESLint configuration
+Estas funcionalidades representan un flujo de atención que comienza con la autenticación del trabajador, continúa con la consulta de mesas disponibles y finaliza con la apertura del pedido. Su funcionamiento se representará mediante tres mockups. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+La propuesta constituye una primera etapa de desarrollo, dejando para futuras implementaciones la gestión de reservas (RF6), la incorporación de productos a los pedidos (RF10) y su seguimiento en cocina (RF11), permitiendo ampliar progresivamente el sistema. 
+
+# Tecnologias Utilizadas
+
+- React, Taildwind, React-router
+
+# Uso
+
+- npm i
+
+- npm run server
+
+- npm run dev
