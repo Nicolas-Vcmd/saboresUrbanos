@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { User, Lock, Eye, EyeOff } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
 
@@ -15,9 +16,12 @@ const Login = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Datos de inicio de sesión:', formData);
+    navigate('/mesas');
   };
 
   return (

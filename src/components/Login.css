@@ -72,6 +72,7 @@
   font-size: 0.9rem;
   outline: none;
   transition: box-shadow 0.2s;
+  color: white;
 }
 
 .input-wrapper input:focus {
