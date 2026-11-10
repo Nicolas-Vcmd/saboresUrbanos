@@ -1,6 +1,7 @@
 
 import { useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
+import { Link } from "react-router-dom";
 
 const DetalleMesa = () => {
   const { id } = useParams();
@@ -57,6 +58,15 @@ const DetalleMesa = () => {
             ))
           ) : (
             <p>Sin reservas registradas.</p>
+          )}
+
+          {mesa.estado === "disponible" && (
+            <Link
+              to={`/mesas/${mesa.id}/pedido`}
+              className="btn-abrir-pedido"
+            >
+              Abrir pedido
+            </Link>
           )}
         </article>
       )}

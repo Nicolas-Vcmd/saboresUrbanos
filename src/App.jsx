@@ -2,6 +2,7 @@ import Login from "./components/Login";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import DetalleMesa from './components/DetalleMesa';
+import AbrirPedido from "./components/AbrirPedido";
 
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/mesas" element={<ListaMesas />} />
           <Route path="/mesas/:id" element={<DetalleMesa />} />
+          <Route path="/mesas/:id/pedido" element={<AbrirPedido />} />
 
           {/* <Route path="*" element={<NotFound />} /> */}
 
